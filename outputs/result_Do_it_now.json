@@ -1,0 +1,15 @@
+{
+  "action": "fill_form",
+  "target_url": null,
+  "data": null,
+  "steps": [
+    {
+      "step_description": "Step 1: Provide missing information",
+      "element_type": "string"
+    },
+    {
+      "step_description": "Step 2: Submit the form",
+      "element_type": "string"
+    }
+  ]
+}

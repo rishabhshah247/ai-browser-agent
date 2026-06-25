@@ -1,0 +1,15 @@
+{
+  "action": "navigate",
+  "target_url": "https://www.youtube.com",
+  "data": null,
+  "steps": [
+    {
+      "step_description": "Launch the browser and navigate to YouTube",
+      "element_type": "string"
+    },
+    {
+      "step_description": "Enter 'MS Dhoni' in the search query box",
+      "element_type": "string"
+    }
+  ]
+}

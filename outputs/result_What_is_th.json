@@ -1,0 +1,93 @@
+{
+  "$defs": {
+    "ActionStep": {
+      "properties": {
+        "step_description": {
+          "title": "Step Description",
+          "type": "string"
+        },
+        "element_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Element Type"
+        }
+      },
+      "required": [
+        "step_description"
+      ],
+      "title": "ActionStep",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "action": {
+      "enum": [
+        "fill_form",
+        "navigate",
+        "email",
+        "summarize",
+        "click",
+        "clarification_needed"
+      ],
+      "title": "Action",
+      "type": "string"
+    },
+    "target_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Target Url"
+    },
+    "data": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Data"
+    },
+    "steps": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/ActionStep"
+      },
+      "title": "Steps",
+      "type": "array"
+    },
+    "clarifying_question": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Clarifying Question"
+    }
+  },
+  "required": [
+    "action"
+  ],
+  "title": "BrowserAction",
+  "type": "object"
+}

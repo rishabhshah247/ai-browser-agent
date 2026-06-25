@@ -1,0 +1,12 @@
+{
+  "action": "summarize",
+  "target_url": null,
+  "data": null,
+  "steps": [
+    {
+      "step_description": "Summary Section",
+      "element_type": "string"
+    }
+  ],
+  "clarifying_question": null
+}

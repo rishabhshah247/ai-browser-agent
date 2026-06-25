@@ -1,0 +1,12 @@
+{
+  "action": "fill_form",
+  "data": {
+    "name": "Your Name"
+  },
+  "steps": [
+    {
+      "step_description": "Fill the login form with name field",
+      "element_type": "string"
+    }
+  ]
+}

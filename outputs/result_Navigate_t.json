@@ -1,0 +1,10 @@
+{
+  "action": "navigate",
+  "target_url": "google.com",
+  "steps": [
+    {
+      "step_description": "Navigating to Google.com",
+      "element_type": null
+    }
+  ]
+}

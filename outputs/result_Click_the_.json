@@ -1,0 +1,9 @@
+{
+  "action": "click",
+  "steps": [
+    {
+      "step_description": "Locate the subscribe button",
+      "element_type": "string"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "action": "email",
+  "steps": [
+    {
+      "step_description": "Inform boss about the meeting",
+      "element_type": "string"
+    },
+    {
+      "step_description": "Use 'Email' action to send an email to the boss",
+      "element_type": "string"
+    }
+  ],
+  "clarifying_question": null
+}
